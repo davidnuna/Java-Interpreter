@@ -1,0 +1,25 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane prefHeight="450.0" prefWidth="1050.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ControllerProgramPicker" stylesheets="@../view/PickerStyle.css">
+    <children>
+        <AnchorPane prefHeight="400.0" prefWidth="1050.0">
+            <children>
+                <ListView fx:id="programsList" focusTraversable="false" layoutX="95.0" layoutY="37.0" prefHeight="220.0" prefWidth="550.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+            </children>
+        </AnchorPane>
+        <Button id="checkButton" focusTraversable="false" layoutX="490.0" layoutY="410.0" mnemonicParsing="false" text="CHECK" onAction="#checkType">
+            <font>
+                <Font name="Segoe UI" size="16.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
+

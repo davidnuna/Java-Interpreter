@@ -1,0 +1,20 @@
+#programsList .list-cell{
+    -fx-background-color: white;
+    -fx-font-size: 14px;
+    -fx-alignment: center;
+    -fx-font-family: "Arial Black";
+    -fx-text-fill: #16212C;
+    -fx-cursor: hand;
+}
+#programsList .list-cell:even {
+    -fx-background-color: #16212C;
+    -fx-text-fill: white;
+}
+#programsList .list-cell:hover {
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.5 , 0.5 , 2 );
+}
+#checkButton{
+    -fx-cursor: hand;
+    -fx-background-color: #16212C;
+    -fx-text-fill: white;
+}
