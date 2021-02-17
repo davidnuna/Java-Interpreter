@@ -1,7 +1,7 @@
 # Java-Interpreter
 An interpreter developed using the MVC Pattern in Java and providing a GUI interface created with JavaFX.
 
-The application works by running, one by one, each instruction in the execution stack. At each step, the user can see what each structure contains: what are the values printed on the screen, what the variables declared are, how many processes there are etc. The normal run consists of choosing the program to run from a list (and also checking if the types are correct by pressing the "CHECK" button) and then running "ONE STEP" until the execution stack is empty and the number of programs becomes 0.
+The application works by running, one by one, each instruction in the execution stack. At each step, the user can see what each structure contains: what are the values printed on the screen, what the variables declared are, how many processes there are etc. A normal run consists of choosing the program to run from a list (and also checking if the types are correct by pressing the "CHECK" button) and then running "ONE STEP" until the execution stack is empty and the number of programs becomes 0.
 
 # Available features
 There are currently 11 hardcoded examples available in the "ControllerProgramPicker.java" module. In order to add new "programs" just follow the already existing ones.
