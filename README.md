@@ -10,3 +10,5 @@ An interpreter developed using the MVC Pattern in Java and providing a GUI inter
 # Preview
 
 ![](Preview/programE.png)
+![](Preview/progrmaP.png)
+
