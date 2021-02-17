@@ -2,7 +2,9 @@
 An interpreter developed using the MVC Pattern in Java and providing a GUI interface created with JavaFX.
 
 # Available features
-
+There are currently 11 hardcoded examples available in the "ControllerProgramPicker.java" module. In order to add new "programs" just follow the already existing ones.
+Currently, the following are available:
+## Types:
 # Requirements
 In order to run the application the JavaFX package has to be installed.
 
