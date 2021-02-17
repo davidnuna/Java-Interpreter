@@ -9,5 +9,6 @@ An interpreter developed using the MVC Pattern in Java and providing a GUI inter
 
 # Preview
 
+![](Preview/programP.png)
 ![](Preview/programE.png)
 
